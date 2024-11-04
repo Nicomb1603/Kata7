@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="1.0.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/CurrencyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/ExchangeRateLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/view/CurrencyDialog.java" afterDir="false" />
+    <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="1.1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/control/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/control/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/persistence/LoadCurrencies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/money_calculator",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/money_calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,7 +81,8 @@
       <updated>1730370043876</updated>
       <workItem from="1730370044835" duration="642000" />
       <workItem from="1730658313471" duration="3593000" />
-      <workItem from="1730716251597" duration="1071000" />
+      <workItem from="1730716251597" duration="2013000" />
+      <workItem from="1730718369104" duration="1878000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0">
       <option name="closed" value="true" />
@@ -100,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730658585803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1.0">
+      <option name="closed" value="true" />
+      <created>1730717525152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730717525152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.0" />
+    <MESSAGE value="1.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.0" />
   </component>
 </project>
