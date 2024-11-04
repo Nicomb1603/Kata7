@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/control/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/control/ExchangeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/LoadCurrencies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDisplay.java" afterDir="false" />
+    <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="1.0.0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/CurrencyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/ExchangeRateLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/architecture/view/CurrencyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/control/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/control/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/persistence/LoadCurrencies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/view/MoneyDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +28,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nicomb1603&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nicomb1603/money_calculator&quot;,
+    &quot;accountId&quot;: &quot;e92dd726-85e2-4306-a5bd-1c9cbedf1e59&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2oCOMK1a9bFHxwipkOtCXNZKb75" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,9 +59,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/money_calculator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,10 +89,25 @@
       <option name="presentableId" value="Default" />
       <updated>1730370043876</updated>
       <workItem from="1730370044835" duration="642000" />
+      <workItem from="1730658313471" duration="3593000" />
+      <workItem from="1730716251597" duration="1071000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.0">
+      <option name="closed" value="true" />
+      <created>1730658585803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730658585803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0" />
   </component>
 </project>

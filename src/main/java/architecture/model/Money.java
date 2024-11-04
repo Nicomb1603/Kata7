@@ -1,4 +1,4 @@
 package architecture.model;
 
-public class Money {
+public record Money(Currency currency, double amount) {
 }

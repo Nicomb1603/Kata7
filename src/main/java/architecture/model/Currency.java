@@ -1,4 +1,4 @@
 package architecture.model;
 
-public class Currency {
+public record Currency(String name, String code, String symbol) {
 }
