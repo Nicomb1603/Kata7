@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="1.1.0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerExchangeRateLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/persistence/ExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/ExchangeRateLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,7 @@
       <workItem from="1730658313471" duration="3593000" />
       <workItem from="1730716251597" duration="2013000" />
       <workItem from="1730718369104" duration="1878000" />
+      <workItem from="1730802854085" duration="3810000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0">
       <option name="closed" value="true" />

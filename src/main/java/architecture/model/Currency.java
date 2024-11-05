@@ -38,4 +38,16 @@ public class Currency {
                 ", code='" + code + '\'' +
                 '}';
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSymbol() {
+        return symbol;
+    }
+
+    public String getCode() {
+        return code;
+    }
 }

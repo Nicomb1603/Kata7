@@ -2,5 +2,5 @@ package architecture.model;
 
 import java.time.LocalDate;
 
-public record ExchangeRate(String from, String to, double rate, LocalDate date) {
+public record ExchangeRate(Currency from, Currency to, double rate, LocalDate date) {
 }
