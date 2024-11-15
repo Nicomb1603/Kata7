@@ -1,6 +1,7 @@
 package apps.windows;
 
 import apps.windows.SwingView.SwingCurrencyDialog;
+import apps.windows.SwingView.SwingDatePicker;
 import apps.windows.SwingView.SwingMoneyDialog;
 import architecture.model.Currency;
 import architecture.view.MoneyDialog;
@@ -13,6 +14,8 @@ public class MainFrame extends JFrame {
     private final List<Currency> currencies;
     private final SwingCurrencyDialog currencyDialog;
     private final SwingMoneyDialog moneyDialog;
+    private final SwingDatePicker calendar;
+    //private final JButton executeButton;
 
     public MainFrame(List<Currency> currencies){
         this.currencies = currencies;
@@ -20,9 +23,19 @@ public class MainFrame extends JFrame {
         this.setSize(800, 600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
+        this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+        JPanel topPanel = new JPanel();
+        topPanel.add(currencyDialog = createCurrencyDialog());
         this.setLayout(new FlowLayout());
         this.add(moneyDialog = createMoneyDialog());
-        this.add(currencyDialog = createCurrencyDialog());
+        this.add(topPanel);
+        this.add(calendar = new SwingDatePicker());
+        //this.add(currencyDialog = createCurrencyDialog());
+        try {
+            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         this.setVisible(true);
     }
 

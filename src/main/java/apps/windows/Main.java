@@ -24,7 +24,8 @@ public class Main {
         //ExchangeRate exchangeRate = exchangeRateLoader.load(new Currency("Euro", "EUR"), new Currency("United States Dollar", "USD"), LocalDate.now());
 
         List<Currency> currencies = List.of(new Currency("United States Dollar", "USD", "$"),
-                new Currency("Euro", "EUR", "€"));
+                new Currency("Euro", "EUR", "€"),
+                new Currency("Yen", "JPY"));
 
 
         MainFrame mainFrame = new MainFrame(currencies);
