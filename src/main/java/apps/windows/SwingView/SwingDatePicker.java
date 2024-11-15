@@ -15,7 +15,10 @@ public class SwingDatePicker extends JPanel implements DatePicker {
 
     @Override
     public Date get() {
+        System.out.println(calendar.getDate());
         return calendar.getDate();
+
+
     }
 
     private JDateChooser createCalendar() {
