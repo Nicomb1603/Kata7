@@ -6,7 +6,6 @@ import architecture.view.CurrencyDialog;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.basic.BasicComboBoxUI;
-import javax.swing.plaf.basic.ComboPopup;
 import java.awt.*;
 import java.util.List;
 
@@ -33,7 +32,7 @@ public class SwingCurrencyDialog extends JPanel implements CurrencyDialog {
         return currencies.get(selector.getSelectedIndex());
     }
 
-    class setCustomComboBoxUI extends BasicComboBoxUI {
+    static class setCustomComboBoxUI extends BasicComboBoxUI {
         @Override
         protected JButton createArrowButton() {
             JButton arrowButton = new JButton("▼");

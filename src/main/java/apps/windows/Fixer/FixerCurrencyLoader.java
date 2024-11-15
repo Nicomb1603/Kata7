@@ -17,7 +17,7 @@ public class FixerCurrencyLoader implements architecture.persistence.CurrencyLoa
 
     @Override
     public List<Currency> loadCurrencies(){
-        List<Currency> currencies = new ArrayList<Currency>();
+        List<Currency> currencies = new ArrayList<>();
         try{
             currencies = toList(loadJSON());
         }catch(IOException e){

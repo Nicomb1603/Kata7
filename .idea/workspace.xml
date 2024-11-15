@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="1.5.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/apps/windows/SwingView/SwingMoneyDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerCurrencyLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Fixer/FixerExchangeRateLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apps/windows/SwingView/SwingDatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apps/windows/SwingView/SwingDatePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/control/ExchangeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/control/ExchangeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/model/ExchangeRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/persistence/ExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/persistence/ExchangeRateLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/architecture/view/DatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/architecture/view/DatePicker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,7 @@
     "Application.ComboBoxCustomDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SwingComboBoxExample.executor": "Run",
+    "Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -70,6 +66,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apps.windows.Main" />
+      <module name="money_calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -97,7 +102,7 @@
       <workItem from="1731498872410" duration="1584000" />
       <workItem from="1731580896879" duration="1875000" />
       <workItem from="1731583016113" duration="3066000" />
-      <workItem from="1731686777030" duration="7127000" />
+      <workItem from="1731686777030" duration="10771000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0">
       <option name="closed" value="true" />
@@ -147,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731688032150</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.5.0">
+      <option name="closed" value="true" />
+      <created>1731695286739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731695286739</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
