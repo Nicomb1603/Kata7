@@ -25,10 +25,8 @@ public class FixerExchangeRateLoader implements ExchangeRateLoader {
 
         try {
             ExchangeRate fromBaseExchangeRate = toExchangeRate(baseCurrency, from, getJsonExchangeRate(baseCurrency, from, date), date);
-            System.out.println("YES");
             ExchangeRate toBaseExchangeRate = toExchangeRate(baseCurrency, to, getJsonExchangeRate(baseCurrency, to, date), date);
-            System.out.println("YES");
-            return new ExchangeRate(from, to, fromBaseExchangeRate.rate()/toBaseExchangeRate.rate(), date);
+            return new ExchangeRate(from, to, toBaseExchangeRate.rate()/fromBaseExchangeRate.rate(), date);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
