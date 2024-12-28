@@ -11,22 +11,20 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        FixerCurrencyLoader fixerCurrencyLoader = new FixerCurrencyLoader();
-        FixerExchangeRateLoader fixerExchangeRateLoader = new FixerExchangeRateLoader();
+        FixerCurrencyLoader fixerCurrencyLoader = FixerCurrencyLoader.create();
+        FixerExchangeRateLoader fixerExchangeRateLoader = FixerExchangeRateLoader.create();
         List<Currency> currencies = fixerCurrencyLoader.loadCurrencies();
-        MainFrame mainFrame = new MainFrame(currencies);
-
-        ExchangeCommand exchangeCommand = new ExchangeCommand(
+        MainFrame mainFrame = MainFrame.with(currencies);
+        ExchangeCommand exchangeCommand = ExchangeCommand.with(
                 mainFrame.moneyDialog(),
                 mainFrame.moneyDisplay(),
                 mainFrame.datePicker(),
                 fixerExchangeRateLoader,
                 mainFrame.currencyDialog()
         );
-        mainFrame.add("exchange", exchangeCommand);
-        mainFrame.setVisible(true);
 
-        //System.out.println(exchangeRate);
+        mainFrame.add("exchange", exchangeCommand)
+                .setVisible(true);
 
     }
 }

@@ -15,6 +15,13 @@ import java.util.Map;
 
 public class FixerCurrencyLoader implements architecture.persistence.CurrencyLoader {
 
+    private FixerCurrencyLoader() {
+    }
+
+    public static FixerCurrencyLoader create(){
+        return new FixerCurrencyLoader();
+    }
+
     @Override
     public List<Currency> loadCurrencies(){
         List<Currency> currencies = new ArrayList<>();

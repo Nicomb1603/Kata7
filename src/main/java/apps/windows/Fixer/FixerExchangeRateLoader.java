@@ -18,6 +18,13 @@ public class FixerExchangeRateLoader implements ExchangeRateLoader {
 
     private Currency baseCurrency;
 
+    private FixerExchangeRateLoader() {
+    }
+
+    public static FixerExchangeRateLoader create(){
+        return new FixerExchangeRateLoader();
+    }
+
     @Override
     public ExchangeRate load(Currency from, Currency to,  Date date) {
 

@@ -50,6 +50,10 @@ public class MainFrame extends JFrame {
 
     }
 
+    public static MainFrame with(List<Currency> currencies){
+        return new MainFrame(currencies);
+    }
+
     private static SwingMoneyDisplay createMoneyDisplay() {
         return new SwingMoneyDisplay();
     }
@@ -83,6 +87,9 @@ public class MainFrame extends JFrame {
         return moneyDialog;
     }
 
-    public void add(String operation, Command command){this.commands.put(operation, command);}
+    public MainFrame add(String operation, Command command){
+        this.commands.put(operation, command);
+        return this;
+    }
 
 }

@@ -18,13 +18,18 @@ public class ExchangeCommand implements Command{
     private final ExchangeRateLoader loader;
     private final CurrencyDialog currencyDialog;
 
-    public ExchangeCommand(MoneyDialog moneyDialog, MoneyDisplay moneyDisplay, DatePicker datePicker,
+    private ExchangeCommand(MoneyDialog moneyDialog, MoneyDisplay moneyDisplay, DatePicker datePicker,
                            ExchangeRateLoader loader, CurrencyDialog currencyDialog){
         this.currencyDialog = currencyDialog;
         this.datePicker = datePicker;
         this.moneyDisplay = moneyDisplay;
         this.moneyDialog = moneyDialog;
         this.loader = loader;
+    }
+
+    public static ExchangeCommand with(MoneyDialog moneyDialog, MoneyDisplay moneyDisplay, DatePicker datePicker,
+                                       ExchangeRateLoader loader, CurrencyDialog currencyDialog){
+        return new ExchangeCommand(moneyDialog, moneyDisplay, datePicker, loader, currencyDialog);
     }
 
     @Override
