@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="2.2.0" />
+    <list default="true" id="b8ccda7b-d24d-45a3-b845-d207bf3628c0" name="Changes" comment="2.2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Nicomb1603/Kata7&quot;,
+    &quot;url&quot;: &quot;https://github.com/Nicomb1603/money_calculator&quot;,
     &quot;accountId&quot;: &quot;e92dd726-85e2-4306-a5bd-1c9cbedf1e59&quot;
   }
 }</component>
@@ -51,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/money_calculator",
+    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/ImageViewerMVC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,7 +116,9 @@
       <workItem from="1734699114694" duration="621000" />
       <workItem from="1734699744327" duration="625000" />
       <workItem from="1734868943958" duration="12000" />
-      <workItem from="1735389333043" duration="630000" />
+      <workItem from="1735389333043" duration="862000" />
+      <workItem from="1736077458529" duration="1114000" />
+      <workItem from="1736249796619" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="1.0.0">
       <option name="closed" value="true" />
@@ -204,11 +208,30 @@
       <option name="project" value="LOCAL" />
       <updated>1735389962884</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2.2.0">
+      <option name="closed" value="true" />
+      <created>1735390117115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735390117115</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1.0" />
